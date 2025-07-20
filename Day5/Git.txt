@@ -1,10 +1,24 @@
 Git is version controlling system(vcs)
-it helps to manage the codebase
+-it helps to tracks the changes the track of codebase
+-it helps to manage the codebase
+-it helps to share the codebase to multiple developers 
 
 
 --git commands--
 1)git init- it initilize git repo in local system by adding the .git directory in the project
+--how to check git folder ---
+-dir /a - show all the folder even hidden ones
+--If configuration error occurs
+-use the global configuration setting for username and email
 2)git status-to check the status of git
 3)git add filename- to add files or folder to staging area (staging area means container from where git manage the track of project)
 4)git add .- to add all the folder in project folder 
-5)git commit-
+5)git commit- to commit the changes in files with commit message
+6)git log- to check the track the history of codebase
+ git log --oneline--simple log
+ commit hash-to go back the 
+ 7)git reset --hard commithashcode-to go back 
+ 6)git branch branchname- to create the branch it git
+ --how to check the all branch
+ -git branch 
+ 9)git checkout branchname- to change to another branch
