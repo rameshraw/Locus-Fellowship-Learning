@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Image with Headings</title>
+  <style>
+    .container {
+      width: 80%; /* or 100%, or any fixed width */
+      margin: 0 auto; /* centers the div */
+      text-align: center; /* centers text */
+    }
+
+    .container img {
+      width: 100%; /* makes image span full width of the div */
+      height: auto; /* maintain aspect ratio */
+      display: block; /* remove bottom whitespace */
+    }
+
+    h1, h3 {
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <img src="download.jpeg" alt="Descriptive Alt Text">
+    <h1>Main Heading</h1>
+    <h3>Subheading</h3>
+  </div>
+
+</body>
+</html>

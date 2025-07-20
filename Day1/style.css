@@ -1,0 +1,64 @@
+/* h1{
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-size: larger;
+    font-style: italic; */
+/* }
+#dname{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+.person{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+button[disabled]{
+    background-color: blue;
+    color: black;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+button[type=submit]{
+    color: red;
+} */ 
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+
+/* flexboxfrogy */
+/* GridGarden */
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+
+}
+.outer{
+
+    width:30vw;
+    background-color: black;
+    height:70vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+img{
+
+    border: 1 px solid wheat;
+    width:60%;
+    height:70%;
+    
+}
+p{
+    color: aliceblue;
+    width:60%;
+}
+
