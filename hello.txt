@@ -1,1 +1,2 @@
 "hello world from terminal" 
+added the new line 
