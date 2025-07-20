@@ -1,0 +1,8 @@
+---Github---
+-it is software that allows us to manage the git files and folder and also help to share codebase among many
+--Repository- folder where we manages the git folder
+1)git remote add origin link - to add locus project to git repo after the commit
+2)git push origin main - to push the project to github repo
+permission error - you have to generate ssh-keys --(command=> ssh-keygen)
+-your pc maynot know that git commands are done by you
+3)git pull origin main-to sync the code of git repo and local repo 
