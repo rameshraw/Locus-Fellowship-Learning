@@ -6,3 +6,5 @@ it helps to manage the codebase
 1)git init- it initilize git repo in local system by adding the .git directory in the project
 2)git status-to check the status of git
 3)git add filename- to add files or folder to staging area (staging area means container from where git manage the track of project)
+4)git add .- to add all the folder in project folder 
+5)git commit-
